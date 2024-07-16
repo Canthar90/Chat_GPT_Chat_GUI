@@ -8,11 +8,6 @@ load_dotenv()
 
 special_key = os.getenv("SECRET_KEY")
 
-# openai.base_url = "http://localhost:3040"
-# OpenAI.base_url = "http://localhost:3040"
-
-openai.api_key = 'anything'
-openai.base_url = "http://localhost:3040/v1"
 
 class Chatbot:
     def __init__(self):
